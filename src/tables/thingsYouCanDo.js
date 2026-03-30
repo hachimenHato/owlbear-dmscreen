@@ -2,13 +2,13 @@ export const thingsYouCanDo = () => {
   const thingsYouCanDo = document.createElement('article');
   thingsYouCanDo.classList.add('card');
   thingsYouCanDo.innerHTML = `
-    <h2>Things You Can Do On Your Turn</h2>
+    <h2>你在回合中可以做的事</h2>
     <div class="block">
       <ul>
-        <li>Move up to your speed.</li>
-        <li>Take one action.</li>
-        <li>Communicate with speech, gestures, or both.</li>
-        <li>Interact with one object or feature of the environment as you move or take your action. To interact with a second object, take the Use an Object action.</li>
+        <li>移动至多你的速度。</li>
+        <li>进行一个动作。</li>
+        <li>通过言语、手势或两者进行交流。</li>
+        <li>在移动或进行动作时，与一个物体或环境特征互动。若要与第二个物体互动，需使用“使用物体”动作。</li>
       </ul>
     </div>
   `;

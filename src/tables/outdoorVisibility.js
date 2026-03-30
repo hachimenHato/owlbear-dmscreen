@@ -2,30 +2,30 @@ export const outdoorVisibility = () => {
   const outdoorVisibility = document.createElement('article');
   outdoorVisibility.classList.add('card');
   outdoorVisibility.innerHTML = `
-    <h2>Visibility (Outdoors)</h2>
+    <h2>能见度（户外）</h2>
     <table>
       <thead>
         <tr>
-          <th class="text">Description</th>
-          <th>Distance</th>
+          <th class="text">描述</th>
+          <th>距离</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Clear day, no obstructions</td>
-          <td>2 mi.</td>
+          <td>晴朗天气，无障碍物</td>
+          <td>2 英里</td>
         </tr>
         <tr>
-          <td>Rain</td>
-          <td>1 mi.</td>
+          <td>下雨</td>
+          <td>1 英里</td>
         </tr>
         <tr>
-          <td>Fog</td>
-          <td>100-300 ft.</td>
+          <td>雾</td>
+          <td>100-300 尺</td>
         </tr>
         <tr>
-          <td>From height</td>
-          <td>x20</td>
+          <td>从高处</td>
+          <td>×20</td>
         </tr>
       </tbody>
     </table>

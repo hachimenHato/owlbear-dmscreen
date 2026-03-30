@@ -2,26 +2,26 @@ export const audibleDistance = () => {
   const audibleDistance = document.createElement('article');
   audibleDistance.classList.add('card');
   audibleDistance.innerHTML = `
-    <h2>Audible Distance</h2>
+    <h2>可听距离</h2>
     <table>
       <thead>
         <tr>
-          <th class="text">Description</th>
-          <th>Distance</th>
+          <th class="text">描述</th>
+          <th>距离</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Trying to be quiet</td>
-          <td>2d6 x 5 ft.</td>
+          <td>试图保持安静</td>
+          <td>2d6 x 5 尺</td>
         </tr>
         <tr>
-          <td>Normal noise level</td>
-          <td>2d6 x 10 ft.</td>
+          <td>正常噪音水平</td>
+          <td>2d6 x 10 尺</td>
         </tr>
         <tr>
-          <td>Loud noise level</td>
-          <td>2d6 x 50 ft.</td>
+          <td>高声噪音水平</td>
+          <td>2d6 x 50 尺</td>
         </tr>
       </tbody>
     </table>

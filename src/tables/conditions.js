@@ -2,91 +2,91 @@ export const conditions = () => {
   const conditions = document.createElement('article');
   conditions.classList.add('card', 'half-screen');
   conditions.innerHTML = `
-    <h2>Conditions</h2>
+    <h2>状态</h2>
     <table class="text">
       <thead>
         <tr>
-          <th>Condition</th>
-          <th>Effect</th>
+          <th>状态</th>
+          <th>效果</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Blinded</td>
-          <td>Automatically fail any check requiring sight. Disadvantage on attack rolls. Attackers have advantage.</td>
+          <td>目盲</td>
+          <td>自动失败任何需要视觉的检定。攻击骰处于劣势。攻击者具有优势。</td>
         </tr>
         <tr>
-          <td>Charmed</td>
-          <td>Cannot attack the charmer or target them with harmful abilities or effects. The charmer has advantage on interacting socially with the charmed creature.</td>
+          <td>魅惑</td>
+          <td>无法攻击魅惑者，或用有害能力/效果针对他们。魅惑者在与被魅惑生物进行社交互动时具有优势。</td>
         </tr>
         <tr>
-          <td>Deafened</td>
-          <td>Automatically fail any ability check that requires hearing.</td>
+          <td>耳聋</td>
+          <td>自动失败任何需要听觉的能力检定。</td>
         </tr>
         <tr>
-          <td>Exhaustion</td>
+          <td>力竭</td>
           <td>
             <ol>
-              <li>Disadvantage on ability checks.</li>
-              <li>Speed is halved.</li>
-              <li>Disadvantage on attack rolls and saving throws.</li>
-              <li>Max HP is halved.</li>
-              <li>Speed is reduced to 0.</li>
-              <li>Death.</li>
+              <li>能力检定处于劣势。</li>
+              <li>速度减半。</li>
+              <li>攻击骰和豁免检定处于劣势。</li>
+              <li>最大生命值减半。</li>
+              <li>速度降至0。</li>
+              <li>死亡。</li>
             </ol>
           </td>
         </tr>
         <tr>
-          <td>Falling</td>
-          <td>At the end of a fall a creature takes 1d6 bludgeoning damage for every 10 feet they fell (max 20d6). A creature who takes damage this way is knocked prone.</td>
+          <td>坠落</td>
+          <td>坠落结束时，生物每坠落10尺受到1d6钝击伤害（最高20d6）。以此方式受到伤害的生物会倒地。</td>
         </tr>
         <tr>
-          <td>Frightened</td>
-          <td>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight. The creature can't willingly move closer to the source of its fear.</td>
+          <td>惊惧</td>
+          <td>惊惧的生物在恐惧源处于视线内时，能力检定和攻击骰处于劣势。该生物无法自愿向恐惧源靠近。</td>
         </tr>
         <tr>
-          <td>Grappled</td>
-          <td>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed. The condition ends if the grappler is incapacitated (see the condition). The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell.</td>
+          <td>被擒抱</td>
+          <td>被擒抱生物的速度变为0，且无法从任何速度加值中获益。若擒抱者失能（见该状态），此状态结束。若有效果将被擒抱生物移出擒抱者或擒抱效果的触及范围（例如生物被*雷霆波*法术击飞），此状态也会结束。</td>
         </tr>
         <tr>
-          <td>Hidden</td>
-          <td>When you attack a target that you can't see, you have disadvantage on the attack roll. If the target isn't in the location you targeted, you automatically miss. When a creature can't see you, you have advantage on attack rolls against it. If you are hidden when you make an attack, you give away your location when the attack hits or misses.</td>
+          <td>隐藏</td>
+          <td>当你攻击一个你看不见的目标时，你的攻击骰处于劣势。如果目标不在你指定的位置，你自动失手。当一个生物看不见你时，你对它的攻击骰处于优势。如果你在攻击时处于隐藏状态，无论攻击命中还是失手，你都会暴露自己的位置。</td>
         </tr>
         <tr>
-          <td>Incapacitated</td>
-          <td>An incapacitated creature can't take actions or reactions.</td>
+          <td>失能</td>
+          <td>失能的生物无法进行动作或反应。</td>
         </tr>
         <tr>
-          <td>Invisible</td>
-          <td>An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves. Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</td>
+          <td>隐形</td>
+          <td>隐形的生物在没有魔法或特殊感官的帮助下无法被看见。为了隐藏的目的，该生物处于重度遮蔽。该生物的位置可以通过它发出的任何声音或留下的任何踪迹被察觉。对该生物的攻击骰处于劣势，该生物的攻击骰处于优势。</td>
         </tr>
         <tr>
-          <td>Paralyzed</td>
-          <td>A paralyzed creature is incapacitated (see the condition) and can't move or speak. The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage. Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</td>
+          <td>麻痹</td>
+          <td>麻痹的生物失能（见该状态）且无法移动或说话。该生物的力量和敏捷豁免检定自动失败。对该生物的攻击骰处于优势。如果攻击者在该生物5尺范围内，任何命中该生物的攻击都是暴击。</td>
         </tr>
         <tr>
-          <td>Petrified</td>
-          <td>A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging. The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings. Attack rolls against the creature have advantage. The creature automatically fails Strength and Dexterity saving throws. The creature has resistance to all damage. The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.</td>
+          <td>石化</td>
+          <td>石化的生物连同它穿戴或携带的任何非魔法物品一起转化为固体无生命物质（通常是石头）。它的重量增加十倍，并且停止衰老。该生物失能（见该状态），无法移动或说话，且对周围环境毫无察觉。对该生物的攻击骰处于优势。该生物的力量和敏捷豁免检定自动失败。该生物对所有伤害有抗性。该生物免疫毒素和疾病，尽管已经在其体内的毒素或疾病会被暂停，而非被中和。</td>
         </tr>
         <tr>
-          <td>Poisoned</td>
-          <td>A poisoned creature has disadvantage on attack rolls and ability checks.</td>
+          <td>中毒</td>
+          <td>中毒的生物在攻击骰和能力检定上处于劣势。</td>
         </tr>
         <tr>
-          <td>Prone</td>
-          <td>A prone creature's only movement option is to crawl, unless it uses half its movement to stand, thereby ending the condition. The creature has disadvantage on attack rolls. An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</td>
+          <td>倒地</td>
+          <td>倒地的生物唯一的移动选择是爬行，除非它使用一半移动力站起，从而结束该状态。该生物在攻击骰上处于劣势。如果攻击者在该生物5尺范围内，对该生物的攻击骰处于优势。否则，攻击骰处于劣势。</td>
         </tr>
          <tr>
-          <td>Restrained</td>
-          <td>A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed. Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage. The creature has disadvantage on Dexterity saving throws.</td>
+          <td>被束缚</td>
+          <td>被束缚的生物速度变为0，且无法从任何速度加值中获益。对该生物的攻击骰处于优势，该生物的攻击骰处于劣势。该生物在敏捷豁免检定上处于劣势。</td>
         </tr>
          <tr>
-          <td>Stunned</td>
-          <td>A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly. The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.</td>
+          <td>震慑</td>
+          <td>震慑的生物失能（见该状态），无法移动，且只能支支吾吾地说话。该生物的力量和敏捷豁免检定自动失败。对该生物的攻击骰处于优势。</td>
         </tr>
          <tr>
-          <td>Unconscious</td>
-          <td>An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings The creature drops whatever it's holding and falls prone. The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage. Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</td>
+          <td>无意识</td>
+          <td>无意识的生物失能（见该状态），无法移动或说话，且对周围环境毫无察觉。该生物掉落手中持有的任何物品并倒地。该生物的力量和敏捷豁免检定自动失败。对该生物的攻击骰处于优势。如果攻击者在该生物5尺范围内，任何命中该生物的攻击都是暴击。</td>
         </tr>
       </tbody>
     </table>

@@ -2,52 +2,52 @@ export const lightSources = () => {
   const lightSources = document.createElement('article');
   lightSources.classList.add('card');
   lightSources.innerHTML = `
-    <h2>Light</h2>
+    <h2>光源</h2>
     <table>
       <thead>
         <tr>
-          <th>Source</th>
-          <th>Bright Light</th>
-          <th>Dim Light</th>
-          <th>Duration</th>
+          <th>光源</th>
+          <th>明亮光照</th>
+          <th>昏暗光照</th>
+          <th>持续时间</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Candle</td>
-          <td>5 ft.</td>
-          <td>+ 5 ft.</td>
-          <td>1 hour</td> 
+          <td>蜡烛</td>
+          <td>5 尺</td>
+          <td>+ 5 尺</td>
+          <td>1 小时</td> 
         </tr>
         <tr>
-          <td>Lamp</td>
-          <td>15 ft.</td>
-          <td>+30 ft.</td>
-          <td>6 hours</td>
+          <td>提灯</td>
+          <td>15 尺</td>
+          <td>+30 尺</td>
+          <td>6 小时</td>
         </tr>
         <tr>
-          <td>Lantern, bullseye</td>
-          <td>60 ft., cone</td>
-          <td>+ 60 ft.</td>
-          <td>6 hours</td>
+          <td>牛眼灯</td>
+          <td>60 尺，锥形</td>
+          <td>+ 60 尺</td>
+          <td>6 小时</td>
         </tr>
         <tr>
-          <td>Lantern, hooded</td>
-          <td>30 ft., cone</td>
-          <td>+ 30 ft.</td>
-          <td>6 hours</td>
+          <td>兜帽灯</td>
+          <td>30 尺</td>
+          <td>+ 30 尺</td>
+          <td>6 小时</td>
         </tr>
         <tr>
-          <td>Lowered hood</td>
+          <td>放下兜帽</td>
           <td> - </td>
-          <td>+ 5 ft.</td>
+          <td>+ 5 尺</td>
           <td>-</td>
         </tr>
         <tr>
-          <td>Torch</td>
-          <td>20 ft.</td>
-          <td>+ 20 ft.</td>
-          <td>1 hour</td>
+          <td>火把</td>
+          <td>20 尺</td>
+          <td>+ 20 尺</td>
+          <td>1 小时</td>
         </tr>
       </tbody>
     </table>

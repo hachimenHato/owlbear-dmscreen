@@ -2,14 +2,14 @@ export const damageSeverity = () => {
   const damageSeverity = document.createElement('article');
   damageSeverity.classList.add('card');
   damageSeverity.innerHTML = `
-    <h2>Damage Severity</h2>
+    <h2>伤害严重程度</h2>
     <table>
       <thead>
         <tr>
-          <th>Level</th>
-          <th>Setback</th>
-          <th>Dangerous</th>
-          <th>Deadly</th>
+          <th>等级</th>
+          <th>挫折</th>
+          <th>危险</th>
+          <th>致命</th>
         </tr>
       </thead>
       <tbody>

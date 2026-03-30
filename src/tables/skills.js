@@ -2,107 +2,107 @@ export const skills = () => {
   const skills = document.createElement('article');
   skills.classList.add('card', 'three-column');
   skills.innerHTML = `
-    <h2>Skills and Associated Abilities</h2>
+    <h2>技能与相关属性</h2>
     <div class="tables-wide">
       <table>
         <thead>
           <tr>
-            <th>Skill</th>
-            <th>Ability</th>
+            <th>技能</th>
+            <th>属性</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Acrobatics</td>
-            <td>Dexterity</td>
+            <td>杂技</td>
+            <td>敏捷</td>
           </tr>
           <tr>
-            <td>Animal Handling</td>
-            <td>Dexterity</td>
+            <td>驯兽</td>
+            <td>敏捷</td>
           </tr>
           <tr>
-            <td>Arcana</td>
-            <td>Intelligence</td>
+            <td>奥秘</td>
+            <td>智力</td>
           </tr>
           <tr>
-            <td>Athletics</td>
-            <td>Strength</td>
+            <td>运动</td>
+            <td>力量</td>
           </tr>
           <tr>
-            <td>Deception</td>
-            <td>Charisma</td>
+            <td>欺瞒</td>
+            <td>魅力</td>
           </tr>
           <tr>
-            <td>History</td>
-            <td>Intelligence</td>
+            <td>历史</td>
+            <td>智力</td>
           </tr>
         </tbody>
       </table>
       <table>
         <thead>
           <tr>
-            <th>Skill</th>
-            <th>Ability</th>
+            <th>技能</th>
+            <th>属性</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Insight</td>
-            <td>Wisdom</td>
+            <td>洞察</td>
+            <td>感知</td>
           </tr>
           <tr>
-            <td>Intimidation</td>
-            <td>Charisma</td>
+            <td>威吓</td>
+            <td>魅力</td>
           </tr>
           <tr>
-            <td>Investigation</td>
-            <td>Intelligence</td>
+            <td>调查</td>
+            <td>智力</td>
           </tr>
           <tr>
-            <td>Medicine</td>
-            <td>Wisdom</td>
+            <td>医疗</td>
+            <td>感知</td>
           </tr>
           <tr>
-            <td>Nature</td>
-            <td>Intelligence</td>
+            <td>自然</td>
+            <td>智力</td>
           </tr>
           <tr>
-            <td>Perception</td>
-            <td>Wisdom</td>
+            <td>察觉</td>
+            <td>感知</td>
           </tr>
         </tbody>
       </table>
       <table>
         <thead>
           <tr>
-            <th>Skill</th>
-            <th>Ability</th>
+            <th>技能</th>
+            <th>属性</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Performance</td>
-            <td>Charisma</td>
+            <td>表演</td>
+            <td>魅力</td>
           </tr>
           <tr>
-            <td>Persuasion</td>
-            <td>Charisma</td>
+            <td>说服</td>
+            <td>魅力</td>
           </tr>
           <tr>
-            <td>Religion</td>
-            <td>Intelligence</td>
+            <td>宗教</td>
+            <td>智力</td>
           </tr>
           <tr>
-            <td>Sleight of Hand</td>
-            <td>Dexterity</td>
+            <td>巧手</td>
+            <td>敏捷</td>
           </tr>
           <tr>
-            <td>Stealth</td>
-            <td>Dexterity</td>
+            <td>潜行</td>
+            <td>敏捷</td>
           </tr>
           <tr>
-            <td>Survival</td>
-            <td>Wisdom</td>
+            <td>求生</td>
+            <td>感知</td>
           </tr>
         </tbody>
       </table>

@@ -6,11 +6,11 @@ export const notePad = () => {
   const notePad = document.createElement('article');
   notePad.classList.add('card', 'notepad');
   notePad.innerHTML = `
-    <h2>Notes</h2>
-    <textarea id="notes" rows="10" cols="30" placeholder="Write your notes here..."></textarea>
+    <h2>笔记</h2>
+    <textarea id="notes" rows="10" cols="30" placeholder="在这里写下你的笔记..."></textarea>
     <div class="button-container">
-      <button id="clear-button">Clear</button>
-      <button id="download-button">Download</button>
+      <button id="clear-button">清空</button>
+      <button id="download-button">下载</button>
     </div>
   `;
 
@@ -25,7 +25,7 @@ export const notePad = () => {
       '\n\n',
       notePad.querySelector('textarea').value
     ];
-    const file = new File(fileData, 'note.txt', {
+    const file = new File(fileData, '笔记.txt', {
       type: 'text/plain',
     });
     downloadFile(file);
@@ -39,4 +39,3 @@ export const notePad = () => {
 
   return notePad;
 }
-

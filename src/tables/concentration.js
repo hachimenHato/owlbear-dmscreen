@@ -2,14 +2,14 @@ export const concentration = () => {
   const concentration = document.createElement('article');
   concentration.classList.add('card');
   concentration.innerHTML = `
-    <h2>Concentration</h2>
+    <h2>专注</h2>
     <div class="block">
-      <p>If a spell must be maintained with concentration, its description specifies how long you can concentrate on it. You can end concentration at any time (no action required). The following factors can break your concentration:<p>
+      <p>若法术需通过专注维持，其说明会注明你可专注的时长。你可随时终止专注（无需动作）。以下因素会打断你的专注：<p>
       <ul>
-        <li>You start casting another spell that requires concentration.</li>
-        <li>You take damage. To maintain concentration, <span class="highlight">succeed on a Constitution saving throw with a DC equal to 10 or half the damage you take, whichever number is higher.</span></li>
-        <li>You're incapacitated or killed.</li>
-        <li>You're overwhelmed by an enormous distraction, such as a wave crashing into you. <span class="highlight">Succeed on a DC 10 Constitution saving throw to maintain your concentration.</span></li>
+        <li>你开始施展另一个需要专注的法术。</li>
+        <li>你受到伤害。为维持专注，<span class="highlight">需进行一次体质豁免，难度等级为10或你所受伤害的一半，取两者中的较高值。</span></li>
+        <li>你失能或死亡。</li>
+        <li>你被巨大的干扰因素淹没，比如海浪冲击你。<span class="highlight">需进行一次难度等级10的体质豁免以维持专注。</span></li>
       </ul>
     </div>   
   `;

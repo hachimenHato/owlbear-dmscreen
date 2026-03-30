@@ -2,38 +2,38 @@ export const travelPace = () => {
   const travelPace = document.createElement('article');
   travelPace.classList.add('card', 'two-column');
   travelPace.innerHTML = `
-    <h2>Travel Pace</h2>
+    <h2>旅行速度</h2>
     <table>
       <thead>
         <tr>
-          <th>Pace</th>
-          <th>Per minute</th>
-          <th>Per hour</th>
-          <th> Per day</th>
-          <th class="text">Effect</th>
+          <th>速度</th>
+          <th>每分</th>
+          <th>每时</th>
+          <th>每天</th>
+          <th class="text">效果</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>slow</td>
-          <td>200 ft.</td>
-          <td>2 mi.</td>
-          <td>18 mi.</td>
-          <td class="text">able to use stealth</td>
+          <td>慢速</td>
+          <td>200 尺</td>
+          <td>2 英里</td>
+          <td>18 英里</td>
+          <td class="text">可使用潜行</td>
         </tr>
         <tr>
-          <td>normal</td>
-          <td>300 ft.</td>
-          <td>3 mi.</td>
-          <td>24 mi</td>
-          <td class="text">no effect</td>
+          <td>正常</td>
+          <td>300 尺</td>
+          <td>3 英里</td>
+          <td>24 英里</td>
+          <td class="text">无特殊效果</td>
         </tr>
         <tr>
-          <td>fast</td>
-          <td>400 ft.</td>
-          <td>4 mi.</td>
-          <td>30 mi.</td>
-          <td class="text">-5 to passive perception</td>
+          <td>快速</td>
+          <td>400 尺</td>
+          <td>4 英里</td>
+          <td>30 英里</td>
+          <td class="text">被动察觉-5</td>
         </tr>
       </tbody>
     </table>
