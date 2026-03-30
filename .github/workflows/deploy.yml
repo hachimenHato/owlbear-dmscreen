@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  # 每次推送到 main 分支时自动触发（如果你的主分支叫 master，就改成 master）
+  push:
+    branches: [ main ]
+  # 允许你在 GitHub 网页上手动触发部署
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # 用你项目需要的 Node 版本
+          cache: 'yarn' # 如果你用 pnpm，就改成 'pnpm'；yarn 改成 'yarn'
+
+      - name: Install dependencies
+        run: yarn install # 对应你的包管理工具：pnpm install / yarn install
+
+      - name: Build plugin
+        run: yarn build # 对应你的构建命令：pnpm build / yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist # 把构建后的 dist 目录部署出去
