@@ -8,7 +8,7 @@
   "action": {
     "title": "DM Screen",
     "icon": "icon.svg",
-    "popover": "index.html",
+    "popover": "https://hachimenhato.github.io/index.html",
     "height": 1600,
     "width": 2500
   }
