@@ -7,8 +7,8 @@
   "description": "Quickly reference tables from the D&D 5e dm screen while running your game.",
   "action": {
     "title": "DM Screen",
-    "icon": "/icon.svg",
-    "popover": "/",
+    "icon": "icon.svg",
+    "popover": "index.html",
     "height": 1600,
     "width": 2500
   }
