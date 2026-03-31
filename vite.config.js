@@ -9,5 +9,16 @@ export default defineConfig({
     cors: {
       origin: "https://www.owlbear.rodeo",
     },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    }
   },
+  preview: {
+    cors: {
+      origin: "https://www.owlbear.rodeo",
+    },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    }
+  }
 });
